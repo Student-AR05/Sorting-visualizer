@@ -1,0 +1,21 @@
+#container{
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+    gap:1px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 10px;
+    background-color: black;
+}
+
+.bar.highlight {
+    background-color: red;
+}
